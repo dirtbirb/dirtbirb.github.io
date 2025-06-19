@@ -1,19 +1,77 @@
-# Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+- position: Sr. Engineer
+  company: Swift Coat
+  url: https://www.swiftcoat.com/
+  location: Phoenix, AZ
+  duration: 2020 &mdash; 2024
+  summary: Created lab systems and analyzed process data for a semiconductor startup with a novel manufacturing process
+  points:
+    - point: Built custom equipment including a toxic gas controller using Arduino and other microcontrollers
+    - point: Applied Swift Coat’s process to develop and test a permanent anti-fog coating for NASA spacesuit helmets
+    - point: Automated reports for live analysis of photovoltaic field test data and manufacturing process control
+    - point: Designed internal experiments to establish and improve process speed and quality
+  skills: Python (pandas, NumPy, Matplot, Kivy), SQL, C++, Jupyter, Arduino, Raspberry Pi, Git, SPC, DoE, OriginPro
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- position: Lab Manager
+  company: Distant Focus
+  url: http://www.distantfocus.com/
+  location: Champaign, IL
+  duration: 2016 &mdash; 2019
+  summary: Created lab systems and managed lab procedures for an optics startup with novel lens designs
+  points:
+    - point: Modified a 20-ton lens grinder for nuclear warheads to function as a laser interferometer
+    - point: Developed image analysis routines for a lunar rover, drone aircraft, scanning microscope, and other systems
+    - point: Created a unified, modular GUI system for a range of laboratory systems built in-house
+    - point: Implemented and enforced lab procedures for safety, organization, and air purity
+  skills: Python (pandas, NumPy, OpenCV, Wx), C, Lua, Matlab/Octave, CUDA, G-code, Git
 
+- position: Process Engineer
+  company: Jireh Semiconductor
+  url: https://www.aosmd.com/jireh-semiconductor
+  location: Hillsboro, OR
+  duration: 2014 &mdash; 2016
+  summary: Developed and maintained manufacturing processes for a 24/7 semiconductor fabrication plant
+  points:
+    - point: Designed a custom intranet app to improve communication between technicians and engineers
+    - point: Advocated for technicians who felt ignored, driving improvements that had been requested for years
+    - point: Created, monitored, and improved plasma etch processes and outgoing quality control procedures
+  skills: SPC, DoE, SQL, PHP, CSS, JavaScript, Drupal
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+- position: Teaching / Research Assistant
+  company: Oregon State University
+  url: https://engineering.oregonstate.edu/Academics/Degrees/electrical-and-computer-engineering
+  location: Corvallis, OR
+  duration: 2012 &mdash; 2014
+  summary: Researched thin-film deposition processes and taught circuitry and device simulation labs
+  # skills: SPICE, SILVACO
+
+- position: Sr. Lab Assistant
+  company: University of California
+  url: https://www.physics.ucsc.edu/
+  location: Santa Cruz, CA
+  duration: 2010 &mdash; 2011
+  summary: Automated data processing for characterization of exotic materials
+  # skills: C++
+
+- position: Research Assistant
+  company: NASA Ames
+  url: https://www.nasa.gov/ames/
+  location: Mountain View, CA
+  duration: 2010
+  summary: Fabricated nanoscale materials and devices for digital logic and energy harvesting
+  # skills: 
+
+- position: Teaching Assistant
+  company: California MESA
+  url: https://www.nasa.gov/ames/
+  location: Salinas, CA
+  duration: 2009 &mdash; 2010
+  summary: 
+  # skills: 
+
+- position: Electronics Assistant
+  company: HSC Electronic Supply
+  url: http://www.halted.com/
+  location: Sacramento, CA
+  duration: 2007 &mdash; 2009
+  summary:
+  # skills:

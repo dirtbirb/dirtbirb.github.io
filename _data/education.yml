@@ -1,13 +1,21 @@
-# Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: MS, Electrical and Computer Engineering
+  uni: Oregon State University
+  year: 2014
+  summary: Found creative uses for semiconductor manufacturing technologies
+  points:
+    - point: Designed and implemented a production process for biocompatible, flexible glucose sensors
+    - point: Expanded existing techniques to model atomic layer deposition in aerogels
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: Graduate Certificate, Management for Science Professionals
+  uni: Oregon State University
+  year: 2013
+  summary: Studied basics of business and management for scientific endeavors
+  # points: 
+  #   - point: 
+
+- degree: BS, Applied Physics
+  uni: University of California, Santa Cruz
+  year: 2011
+  summary: Researched nanotechnology and semiconductor devices
+  # points: 
+  #   - point: 
