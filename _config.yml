@@ -17,11 +17,10 @@ resume_title:                   "Creativity in Engineering"
 resume_contact_email:           "DjmPhysics@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "+19166073845"
+# resume_contact_telephone:       ""
 # resume_contact_address:         ""
-
-resume_header_contact_info:     "+1 (916) 607-3845 • DjmPhysics@gmail.com"
-display_header_contact_info:    "false"
+resume_header_contact_info:     "<a href=\"mailto:DjmPhysics@gmail.com\">DjmPhysics@gmail.com</a>"
+display_header_contact_info:    "true"
 
 resume_header_intro: "<p>Scientific software engineer with extensive experience in the semiconductor industry. Currently looking for projects.</p>"
 
