@@ -150,46 +150,67 @@
     @include sans_light;
     font-size: 1.25rem;
     letter-spacing: -.05rem;
-    line-height: 1;
+    line-height: 1.1;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  .resume-item-description {
+    display: inline;
+  }
+
+  .resume-item-duration {
+    text-align: right;
   }
 
   .resume-item-name {
     @include sans_bold;
+    width: 48%;
     font-size: 1.25rem;
+  }
+
+  .resume-item-entity {
+    width: 48%;
+    display: inline-block;
   }
 
   .resume-item-summary {
     font-size: 1.125rem;
     line-height: 1;
   }
+}
 
-  .resume-item-details {
-    font-size: 1rem;
-  }
+// details[open] div {
+//   background: rgba(128, 128, 128, 0.103);
+// }
 
-  .resume-item-title,
-  .resume-item-summary,
-  .resume-item-details,
-  .resume-item-copy,
-  .resume-item-list {
-    a {
-      color: #333;
-      text-decoration: none;
-      border-bottom: 1px solid;
+.resume-item-details {
+  font-size: 1rem;
+}
 
-      &:hover {
-        border-bottom: none;
-        color: #9c9c9c;
-      }
+.resume-item-skills {
+  font-family: "Consolas", Monospace;
+  font-size: 0.8rem;
+}
+
+.resume-item-title,
+.resume-item-summary,
+.resume-item-details,
+.resume-item-copy,
+.resume-item-list {
+  a {
+    // color: #333;
+    text-decoration: underline;
+    // border-bottom: 1px solid;
+
+    &:hover {
+      // border-bottom: none;
+      color: #9c9c9c;
     }
   }
-
-  // .resume-item-copy {
-  //   // margin: .75rem 0 0;
-  // }
 }
+
 
 // footer styles
 

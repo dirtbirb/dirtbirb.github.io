@@ -10,6 +10,7 @@
     - point: Automated reports for live analysis of photovoltaic field test data and manufacturing process control
     - point: Designed internal experiments to establish and improve process speed and quality
   skills: Python (pandas, NumPy, Matplot, Kivy), SQL, C++, Jupyter, Arduino, Raspberry Pi, Git, SPC, DoE, OriginPro
+  open: true
 
 - position: Lab Manager
   company: Distant Focus
@@ -23,6 +24,7 @@
     - point: Created a unified, modular GUI system for a range of laboratory systems built in-house
     - point: Implemented and enforced lab procedures for safety, organization, and air purity
   skills: Python (pandas, NumPy, OpenCV, Wx), C, Lua, Matlab/Octave, CUDA, G-code, Git
+  open: true
 
 - position: Process Engineer
   company: Jireh Semiconductor
@@ -35,6 +37,7 @@
     - point: Advocated for technicians who felt ignored, driving improvements that had been requested for years
     - point: Created, monitored, and improved plasma etch processes and outgoing quality control procedures
   skills: SPC, DoE, SQL, PHP, CSS, JavaScript, Drupal
+  open: true
 
 - position: Teaching / Research Assistant
   company: Oregon State University
@@ -42,7 +45,8 @@
   location: Corvallis, OR
   duration: 2012 &mdash; 2014
   summary: Researched thin-film deposition processes and taught circuitry and device simulation labs
-  # skills: SPICE, SILVACO
+  skills: SPICE, SILVACO
+  open: false
 
 - position: Sr. Lab Assistant
   company: University of California
@@ -50,7 +54,8 @@
   location: Santa Cruz, CA
   duration: 2010 &mdash; 2011
   summary: Automated data processing for characterization of exotic materials
-  # skills: C++
+  skills: C++
+  open: false
 
 - position: Research Assistant
   company: NASA Ames
@@ -59,6 +64,7 @@
   duration: 2010
   summary: Fabricated nanoscale materials and devices for digital logic and energy harvesting
   # skills: 
+  open: false
 
 - position: Teaching Assistant
   company: California MESA
@@ -67,6 +73,7 @@
   duration: 2009 &mdash; 2010
   summary: 
   # skills: 
+  open: false
 
 - position: Electronics Assistant
   company: HSC Electronic Supply
@@ -75,3 +82,4 @@
   duration: 2007 &mdash; 2009
   summary:
   # skills:
+  open: false
