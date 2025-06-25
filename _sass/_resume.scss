@@ -16,6 +16,37 @@
   }
 }
 
+details {
+  // font:
+  //   16px "Open Sans",
+  //   Calibri,
+  //   sans-serif;
+  // width: 620px;
+  // box-shadow: 3px 3px 4px black;
+  cursor: pointer;
+}
+
+// details>summary {
+//   padding: 2px 6px;
+//   // width: 15em;
+//   // background-color: #ddd;
+//   border: none;
+
+// }
+
+// details>p {
+//   border-radius: 0 0 10px 10px;
+//   background-color: #ddd;
+//   padding: 2px 6px;
+//   margin: 0;
+//   box-shadow: 3px 3px 4px black;
+// }
+
+// details:open>summary {
+//   background-color: #ccf;
+// }
+
+
 // page header styles
 
 .page-header {
@@ -154,6 +185,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 0;
   }
 
   .resume-item-description {
@@ -194,6 +226,7 @@
   font-size: 0.8rem;
 }
 
+.header-contact-info,
 .resume-item-title,
 .resume-item-summary,
 .resume-item-details,
@@ -201,7 +234,7 @@
 .resume-item-list {
   a {
     // color: #333;
-    text-decoration: underline;
+    text-decoration: none;
     // border-bottom: 1px solid;
 
     &:hover {
