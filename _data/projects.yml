@@ -1,16 +1,28 @@
 # Projects
-# uncomment the urls if you wish to display them, and add your own URL
+- name: SegmentEveryGrain
+  duration: 2024 &mdash; Present
+  url: "https://github.com/dirtbirb/segmenteverygrain"
+  summary: Machine learning for fluvial sediment analysis
+  details: Adapting machine learning (ML) techniques from Dr. Zoltan Sylvester (UT Austin) to efficiently measure grain sizes from drone videos of riverbeds with Dr. Emma Lodes (Arizona State). Created interactive GUI, trained ML model, set up remote CUDA-enabled Jupyter server, and instructed users.
+  skills: Python, Keras, PyTorch, Tensorflow, Matplotlib
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+- name: Jelli.Fit
+  duration: 2024 &mdash; Present
+  url: "https://github.com/dirtbirb/jelli.fit"
+  summary: Open-source event and venue scheduling
+  details: Adding location-finding functionality and theming to scheduling application Crab.Fit by developer Ben Grant. Allows users to enter their location and availability, creating a graph of available times and suggesting a venue based on user preferences. Built with Axum and React, hosted on cloud services Vercel and Fly.io, relying on the Google Maps API.
+  skills: Rust, Javascript, API
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- name: Dual Coincidence
+  duration: 2021
+  url: "https://andycavatorta.com/dual.html"
+  summary: Interactive art project
+  details: Assisted artist Andy Cavatorta with final construction and troubleshooting of an elaborate mechanical game meant to educate players on economic concepts. Installed in the museum of the Central Bank of Mexico. Machine control was performed using a bank of networked Raspberry Pi microcontrollers.
+  skills: Python, Linux, Raspberry Pi, Spanish
+
+# - name: 
+#   duration: 
+#   url: "#"
+#   summary: 
+#   details: 
+#   skills:
