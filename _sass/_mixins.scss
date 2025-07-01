@@ -64,22 +64,17 @@
 
 @mixin sans_light {
   @include sans;
-  font-weight: 300;
+  font-weight: $light;
 }
 
 @mixin sans_regular {
   @include sans;
-  font-weight: 400;
+  font-weight: $regular;
 }
 
 @mixin sans_bold {
   @include sans;
-  font-weight: 700;
-}
-
-@mixin sans_extrabold {
-  @include sans;
-  font-weight: 800;
+  font-weight: $heavy;
 }
 
 @mixin serif {
@@ -88,12 +83,12 @@
 
 @mixin serif_regular {
   @include serif;
-  font-weight: 400;
+  font-weight: $regular;
 }
 
 @mixin serif_bold {
   @include serif;
-  font-weight: 700;
+  font-weight: $heavy;
 }
 
 // layout
@@ -101,6 +96,12 @@
 @mixin section_border {
   border-top: 4px solid #c7c7c7;
   border-bottom: 2px solid #c7c7c7;
+  padding: .2rem 0 .2rem;
+}
+
+@mixin section_border_top {
+  border-top: 4px solid #c7c7c7;
+  border-bottom: 0px solid #c7c7c7;
   padding: .2rem 0 .2rem;
 }
 

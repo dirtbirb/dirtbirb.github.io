@@ -1,53 +1,14 @@
 // Resume styles
-// ---------------------------------------/
 
-// util
+
+// Util
 
 .section-header {
   @include section_border;
-  // margin-bottom: 1.5rem;
-
-  h2 {
-    @include sans;
-    font-weight: 900;
-    font-size: 1.75rem;
-    letter-spacing: -.05rem;
-    margin: 0;
-  }
 }
 
-details {
-  // font:
-  //   16px "Open Sans",
-  //   Calibri,
-  //   sans-serif;
-  // width: 620px;
-  // box-shadow: 3px 3px 4px black;
-  cursor: pointer;
-}
 
-// details>summary {
-//   padding: 2px 6px;
-//   // width: 15em;
-//   // background-color: #ddd;
-//   border: none;
-
-// }
-
-// details>p {
-//   border-radius: 0 0 10px 10px;
-//   background-color: #ddd;
-//   padding: 2px 6px;
-//   margin: 0;
-//   box-shadow: 3px 3px 4px black;
-// }
-
-// details:open>summary {
-//   background-color: #ccf;
-// }
-
-
-// page header styles
+// Header
 
 .page-header {
   padding: 1.5rem 0;
@@ -62,9 +23,8 @@ details {
   }
 
   .header-name {
-    @include sans;
+    @include sans_bold;
     font-size: 3rem;
-    font-weight: 900;
     text-align: center;
     letter-spacing: -.15rem;
     line-height: 1;
@@ -73,27 +33,23 @@ details {
 
   .header-contact-info {
     @include sans;
+    padding: 0 0 1rem;
     text-align: center;
-  }
-
-  .header-contact-info p a {
-    color: inherit;
+    text-transform: capitalize;
   }
 
   .title-bar {
-    @include section_border;
-    margin-top: 2rem;
+    @include section_border_top;
+    // margin-top: 2rem;
     padding: .4rem 0;
     @include clearfix;
 
     .header-title {
-      @include sans;
-      font-weight: 300;
+      @include sans_light;
       font-size: 1.75rem;
       line-height: 2rem;
       letter-spacing: -.05rem;
       text-align: center;
-      margin: 0 0 .5rem;
 
       @include media_larger_than_mobile {
         float: left;
@@ -146,17 +102,17 @@ details {
 
 .contact-button {
   @include border-radius(3px);
+  @include sans_bold;
+  @include transition(all .2s ease);
   background-color: #efefef;
-  text-decoration: none;
-  text-align: center;
+  color: #333;
   display: block;
+  font-size: 1rem;
+  line-height: 55px;
+  text-align: center;
+  text-decoration: none;
   margin: 1.5rem auto;
   width: 220px;
-  font-size: 1.375rem;
-  @include sans_light;
-  color: #333;
-  line-height: 55px;
-  @include transition(all .2s ease);
 
   &:hover {
     background-color: #333;
@@ -168,7 +124,8 @@ details {
   }
 }
 
-// resume content styles
+
+// Content
 
 .content-section {
   margin: 0 0 3rem;
@@ -213,10 +170,6 @@ details {
   }
 }
 
-// details[open] div {
-//   background: rgba(128, 128, 128, 0.103);
-// }
-
 .resume-item-details {
   font-size: 1rem;
 }
@@ -226,26 +179,8 @@ details {
   font-size: 0.8rem;
 }
 
-.header-contact-info,
-.resume-item-title,
-.resume-item-summary,
-.resume-item-details,
-.resume-item-copy,
-.resume-item-list {
-  a {
-    // color: #333;
-    text-decoration: none;
-    // border-bottom: 1px solid;
 
-    &:hover {
-      // border-bottom: none;
-      color: #9c9c9c;
-    }
-  }
-}
-
-
-// footer styles
+// Footer
 
 .page-footer {
   border-top: 4px solid #c7c7c7;
@@ -257,13 +192,11 @@ details {
     margin: 0;
     font-size: .875rem;
     color: #999;
-
-    >a {
-      font-weight: 700;
-      color: #333;
-    }
   }
 }
+
+
+// Print ---------------------------------------------------------------------
 
 .print-only {
   display: none !important
