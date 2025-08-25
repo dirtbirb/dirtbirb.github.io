@@ -1,13 +1,6 @@
 // Resume styles
 
 
-// Util
-
-.section-header {
-  @include section_border;
-}
-
-
 // Header
 
 .page-header {
@@ -126,6 +119,11 @@
 
 
 // Content
+
+.section-header {
+  display: flex;
+  align-items: center;
+}
 
 .content-section {
   margin: 0 0 3rem;

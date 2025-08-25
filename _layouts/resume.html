@@ -41,10 +41,7 @@
         <p class="executive-summary" itemprop="description">
           {{ site.resume_header_intro }}
         </p>
-
       </div>
-
-
     </header>
 
 
@@ -53,6 +50,7 @@
     <section class="content-section" id="experience">
       <header class="section-header">
         <h2>Experience</h2>
+        <hr>
       </header>
 
       {% for job in site.data.experience %}
@@ -70,12 +68,13 @@
           <p class="resume-item-duration" style="width: 16%;">{{ job.duration }}</p>
         </div>
 
+        {% if job.summary %}
         <details class="resume-item-summary" {% if job.open %}open{% endif %}>
           <summary>{{ job.summary }}</summary>
           <div class="resume-item-details">
             <ul>
               {% for point in job.points %}
-              <li>{{ point.point }}</li>
+              <li>{{ point }}</li>
               {% endfor %}
             </ul>
             {% if job.skills %}
@@ -83,10 +82,9 @@
             {% endif %}
           </div>
         </details>
-
+        {% endif %}
       </div>
       {% endfor %}
-
     </section>
     {% endif %}
 
@@ -96,6 +94,7 @@
     <section class="content-section" id="education">
       <header class="section-header">
         <h2>Education</h2>
+        <hr>
       </header>
 
       {% for education in site.data.education %}
@@ -106,17 +105,18 @@
           <p class="resume-item-duration" style="width: 10%">{{ education.year }}</p>
         </div>
 
-        <details class="resume-item-summary">
+        {% if education.summary %}
+        <details class="resume-item-summary" {% if education.open %}open{% endif %}>
           <summary itemprop="description">
             {{ education.summary }}
           </summary>
           <ul class="resume-item-details">
             {% for point in education.points %}
-            <li>{{ point.point }}</li>
+            <li>{{ point }}</li>
             {% endfor %}
           </ul>
         </details>
-
+        {% endif %}
       </div>
       {% endfor %}
     </section>
@@ -128,6 +128,7 @@
     <section class="content-section" id="projects">
       <header class="section-header">
         <h2>Projects</h2>
+        <hr>
       </header>
 
       {% for project in site.data.projects %}
@@ -143,13 +144,12 @@
           <p class="resume-item-duration" style="width: 20%;">{{ project.duration }}</p>
         </div>
 
-        <details class="resume-item-summary">
+        <details class="resume-item-summary" {% if project.open %}open{% endif %}>
           <summary itemprop="description">
             {{ project.summary }}
           </summary>
           <p class="resume-item-details">{{ project.details }}</p>
         </details>
-
       </div>
       {% endfor %}
     </section>
@@ -161,6 +161,7 @@
     <section class="content-section" id="publications">
       <header class="section-header">
         <h2>Publications</h2>
+        <hr>
       </header>
 
       {% for publication in site.data.publications %}
@@ -177,11 +178,13 @@
     </section>
     {% endif %}
 
+
     <!-- Interests -->
     {% if site.sections contains "interests" %}
     <section class="content-section" id="interests">
       <header class="section-header">
         <h2>Outside Interests</h2>
+        <hr>
       </header>
 
       <div class="resume-item">
@@ -191,7 +194,6 @@
           {% endfor %}
         </ul>
       </div>
-
     </section>
     {% endif %}
 
@@ -201,6 +203,7 @@
     <section class="content-section" id="links">
       <header class="section-header">
         <h2>Additional Links</h2>
+        <hr>
       </header>
 
       <div class="resume-item">
@@ -210,7 +213,6 @@
           {% endfor %}
         </ul>
       </div>
-
     </section>
     {% endif %}
 
@@ -221,12 +223,12 @@
 
       <header class="section-header">
         <h2>Social Links</h2>
+        <hr>
       </header>
 
       <div class="resume-item">
         {% include print-social-links.html %}
       </div>
-
     </section>
     {% endif %}
 
@@ -235,7 +237,6 @@
       <p class="footer-line">Steal the code behind this CV from my <a href="https://github.com/dirtbirb/cv">GitHub</a>.
       </p>
     </footer>
-
   </div>
 </body>
 
