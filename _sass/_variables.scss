@@ -12,13 +12,14 @@ $sky: #7ef6ff;
 $pink: #ff6af3;
 
 // Styles
-$text_color: $white;
+$text-color: $white;
 $heavy: 700;
 $regular: 400;
 $light: 300;
 
 // Transitions
-$transition_time: 0.25s;
+$x-time: 0.25s;
+$x-ease: ease-out;
 
 // // Font stack
 // $body-font: "Liberation Sans Narrow", Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !default;

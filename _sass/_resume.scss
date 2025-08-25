@@ -81,7 +81,7 @@
     display: inline-block;
 
     .icon path {
-      @include transition(fill $transition_time ease-out);
+      @include transition(fill $x-time $x-ease);
       fill: $white;
     }
 
@@ -98,7 +98,7 @@
 .contact-button {
   @include border-radius(3px);
   @include sans_bold;
-  @include transition(background-color $transition_time ease-out);
+  @include transition(background-color $x-time $x-ease);
   background-color: $white;
   color: $black;
   display: block;
