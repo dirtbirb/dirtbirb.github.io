@@ -39,11 +39,7 @@ hr {
   margin-left: 15px;
 }
 
-// Details open animation
-details[open] summary~* {
-  animation: sweep $x-time $x-ease;
-}
-
+// Details fade-in
 @keyframes sweep {
   0% {
     opacity: 0;
@@ -56,24 +52,37 @@ details[open] summary~* {
   }
 }
 
-// Details rotating triangle
-details[open] summary:after {
-  transform: rotate(180deg);
-}
+details[open] {
 
-summary:after {
-  @include transition($x-time);
-  content: '🛆';
-  font-size: 8pt;
-  color: $sky;
-  height: 12px;
-  transform: rotate(90deg);
+  // Rotating triangle
+  & summary:after {
+    transform: rotate(180deg);
+  }
+
+  // Fade-in
+  & summary~* {
+    animation: sweep $x-time $x-ease;
+  }
 }
 
 summary {
   cursor: pointer;
   display: flex;
   justify-content: space-between;
+
+  // Rotating triangle
+  &:after {
+    @include transition($x-time);
+    content: '🛆';
+    color: $sky;
+    font-size: 8pt;
+    height: 12px;
+    transform: rotate(90deg);
+  }
+
+  &:hover:after {
+    color: $pink;
+  }
 }
 
 .wrapper:before,
