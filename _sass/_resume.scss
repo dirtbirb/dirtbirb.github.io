@@ -65,9 +65,6 @@
   list-style: none;
   position: relative;
   top: 4px;
-  text-align: center;
-  border-top: 2px solid $white;
-  padding-top: .4rem;
 
   @include media_larger_than_mobile {
     float: right;
