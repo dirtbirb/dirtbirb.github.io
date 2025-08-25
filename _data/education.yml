@@ -3,19 +3,22 @@
   year: 2014
   summary: Found creative uses for semiconductor manufacturing technologies
   points:
-    - point: Designed and implemented a production process for biocompatible, flexible glucose sensors
-    - point: Expanded existing techniques to model atomic layer deposition in aerogels
+    - Designed and implemented a production process for biocompatible, flexible glucose sensors
+    - Expanded existing techniques to model atomic layer deposition in aerogels
+  open: false
 
 - degree: Graduate Certificate, Management for Science Professionals
   uni: Oregon State University
   year: 2013
   summary: Studied basics of business and management for scientific endeavors
   # points: 
-  #   - point: 
+  #   - 
+  open: false
 
 - degree: BS, Applied Physics
   uni: University of California, Santa Cruz
   year: 2011
   summary: Researched nanotechnology and semiconductor devices
   # points: 
-  #   - point: 
+  #   - 
+  open: false
