@@ -68,7 +68,7 @@
           <p class="resume-item-duration" style="width: 16%;">{{ job.duration }}</p>
         </div>
 
-        {% if job.summary %}
+        {% if job.points %}
         <details class="resume-item-summary" {% if job.open %}open{% endif %}>
           <summary>{{ job.summary }}</summary>
           <div class="resume-item-details">
@@ -82,6 +82,8 @@
             {% endif %}
           </div>
         </details>
+        {% else %}
+        <p class="resume-item-summary">{{ job.summary }}</p>
         {% endif %}
       </div>
       {% endfor %}
@@ -105,17 +107,21 @@
           <p class="resume-item-duration" style="width: 10%">{{ education.year }}</p>
         </div>
 
-        {% if education.summary %}
+        {% if education.points %}
         <details class="resume-item-summary" {% if education.open %}open{% endif %}>
           <summary itemprop="description">
             {{ education.summary }}
           </summary>
-          <ul class="resume-item-details">
-            {% for point in education.points %}
-            <li>{{ point }}</li>
-            {% endfor %}
-          </ul>
+          <div class="resume-item-details">
+            <ul>
+              {% for point in education.points %}
+              <li>{{ point }}</li>
+              {% endfor %}
+            </ul>
+          </div>
         </details>
+        {% else %}
+        <p class="resume-item-summary">{{ education.summary }}</p>
         {% endif %}
       </div>
       {% endfor %}
@@ -144,12 +150,18 @@
           <p class="resume-item-duration" style="width: 20%;">{{ project.duration }}</p>
         </div>
 
+        {% if project.details %}
         <details class="resume-item-summary" {% if project.open %}open{% endif %}>
           <summary itemprop="description">
             {{ project.summary }}
           </summary>
-          <p class="resume-item-details">{{ project.details }}</p>
+          <div class="resume-item-details">
+            <p>{{ project.details }}</p>
+          </div>
         </details>
+        {% else %}
+        <p class="resume-item-details">{{ project.summary }}</p>
+        {% endif %}
       </div>
       {% endfor %}
     </section>

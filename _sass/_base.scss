@@ -18,12 +18,12 @@ body {
 }
 
 a {
+  @include transition(color $transition_time);
   color: $sky;
   text-decoration: none;
-  transition: color .2s;
 
   &:hover {
-    color: #ff00ea;
+    color: $pink;
   }
 }
 
@@ -41,7 +41,7 @@ hr {
 
 // Details open animation
 details[open] summary~* {
-  animation: sweep 0.2s ease-in-out;
+  animation: sweep $transition_time ease-in-out;
 }
 
 @keyframes sweep {
@@ -62,11 +62,11 @@ details[open] summary:after {
 }
 
 summary:after {
+  @include transition($transition_time);
   content: '🛆';
   font-size: 8pt;
   color: $sky;
   height: 12px;
-  transition: 0.2s;
   transform: rotate(90deg);
 }
 

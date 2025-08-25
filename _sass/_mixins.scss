@@ -14,7 +14,6 @@
 }
 
 // Clearfix
-//
 // Clears floats via mixin (avoid using as a class).
 
 @mixin clearfix {
@@ -30,7 +29,7 @@
   }
 }
 
-// media querie tools
+// Media query tools
 
 @mixin media_max($screen_width) {
   @media (max-width: $screen_width) {
@@ -56,7 +55,7 @@
   }
 }
 
-// type utilities
+// Type utilities
 
 @mixin sans {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;

@@ -65,7 +65,7 @@
   position: relative;
   top: 4px;
   text-align: center;
-  border-top: 2px solid #c7c7c7;
+  border-top: 2px solid $white;
   padding-top: .4rem;
 
   @include media_larger_than_mobile {
@@ -82,9 +82,13 @@
   .icon-link {
     display: inline-block;
 
+    .icon path {
+      @include transition(fill $transition_time ease-out);
+      fill: $white;
+    }
+
     &:hover .icon path {
-      fill: #333;
-      @include transition(all .2s ease);
+      fill: $sky;
     }
   }
 
@@ -96,9 +100,9 @@
 .contact-button {
   @include border-radius(3px);
   @include sans_bold;
-  @include transition(all .2s ease);
-  background-color: #efefef;
-  color: #333;
+  @include transition(background-color $transition_time ease-out);
+  background-color: $white;
+  color: $black;
   display: block;
   font-size: 1rem;
   line-height: 55px;
@@ -108,8 +112,8 @@
   width: 220px;
 
   &:hover {
-    background-color: #333;
-    color: #fff;
+    background-color: $sky;
+    color: $black;
   }
 
   &.not-looking {
