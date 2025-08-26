@@ -25,25 +25,29 @@
     margin: 1rem 0 0;
   }
 
+  .header-name-row {
+    // @include clearfix;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+  }
+
   .header-contact-info {
     @include sans;
-    padding: 0 0 1rem;
     text-align: center;
     text-transform: capitalize;
+    margin-top: 1rem;
   }
 
   .title-bar {
-    @include section_border_top;
-    // margin-top: 2rem;
-    padding: .4rem 0;
     @include clearfix;
 
     .header-title {
       @include sans_light;
-      font-size: 1.75rem;
       line-height: 2rem;
       letter-spacing: -.05rem;
-      text-align: center;
 
       @include media_larger_than_mobile {
         float: left;
@@ -52,11 +56,11 @@
     }
   }
 
-  .executive-summary {
-    @include media_larger_than_mobile {
-      font-size: 1.125rem;
-    }
-  }
+  // .executive-summary {
+  //   @include media_larger_than_mobile {
+  //     font-size: 1.125rem;
+  //   }
+  // }
 }
 
 .icon-links {
@@ -69,7 +73,6 @@
   @include media_larger_than_mobile {
     float: right;
     border-top: none;
-    padding-top: 0;
   }
 
   .icon-link-item {
@@ -101,13 +104,10 @@
   @include transition(background-color $x-time $x-ease);
   background-color: $white;
   color: $black;
-  display: block;
-  font-size: 1rem;
-  line-height: 55px;
+  line-height: 48px;
   text-align: center;
-  text-decoration: none;
-  margin: 1.5rem auto;
   width: 220px;
+  margin-top: 1rem;
 
   &:hover {
     background-color: $sky;
@@ -140,14 +140,15 @@
     letter-spacing: -.05rem;
     line-height: 1.1;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0;
   }
 
-  .resume-item-description {
-    display: inline;
-  }
+  // .resume-item-description {
+  //   display: inline;
+  // }
 
   .resume-item-duration {
     text-align: right;
@@ -161,22 +162,22 @@
 
   .resume-item-entity {
     width: 48%;
-    display: inline-block;
+    // display: inline-block;
   }
 
   .resume-item-summary {
     font-size: 1.125rem;
     line-height: 1;
   }
-}
 
-.resume-item-details {
-  font-size: 1rem;
-}
+  .resume-item-details {
+    font-size: 1rem;
+  }
 
-.resume-item-skills {
-  font-family: "Consolas", Monospace;
-  font-size: 0.8rem;
+  .resume-item-skills {
+    font-family: "Consolas", Monospace;
+    font-size: 0.7rem;
+  }
 }
 
 
