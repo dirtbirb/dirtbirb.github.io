@@ -5,15 +5,15 @@
   summary: Machine learning for fluvial sediment analysis
   details: Adapting machine learning (ML) techniques from Dr. Zoltan Sylvester (UT Austin) to efficiently measure grain sizes from drone videos of riverbeds with Dr. Emma Lodes (Arizona State). Created interactive GUI, trained ML model, set up remote CUDA-enabled Jupyter server, and instructed users.
   skills: Python, Keras, PyTorch, Tensorflow, Matplotlib
-  open: false
+  open: true
 
-- name: Jelli.Fit
-  duration: 2024 - Present
-  url: "https://github.com/dirtbirb/jelli.fit"
-  summary: Open-source event and venue scheduling
-  details: Adding location-finding functionality and theming to scheduling application Crab.Fit by developer Ben Grant. Allows users to enter their location and availability, creating a graph of available times and suggesting a venue based on user preferences. Built with Axum and React, hosted on cloud services Vercel and Fly.io, relying on the Google Maps API.
-  skills: Rust, Javascript, API
-  open: false
+# - name: Jelli.Fit
+#   duration: 2024 - Present
+#   url: "https://github.com/dirtbirb/jelli.fit"
+#   summary: Open-source event and venue scheduling
+#   details: Adding location-finding functionality and theming to scheduling application Crab.Fit by developer Ben Grant. Allows users to enter their location and availability, creating a graph of available times and suggesting a venue based on user preferences. Built with Axum and React, hosted on cloud services Vercel and Fly.io, relying on the Google Maps API.
+#   skills: Rust, Javascript, API
+#   open: false
 
 - name: Dual Coincidence
   duration: 2021
@@ -21,7 +21,28 @@
   summary: Interactive art project
   details: Assisted artist Andy Cavatorta with final construction and troubleshooting of an elaborate mechanical game meant to educate players on economic concepts. Installed in the museum of the Central Bank of Mexico. Machine control was performed using a bank of networked Raspberry Pi microcontrollers.
   skills: Python, Linux, Raspberry Pi, Spanish
-  open: false
+  open: true
+
+- name: Field test reporting system
+  duration: 2020 - 2024
+  # url: "#"
+  summary: Live data visualization
+  details: Automated field test reports from remote photovoltaic panels, incorporating EPA weather data and other sources to produce live performance analyses. Compiled using data-sharing services and SQL-like API queries, scripted using Python in Jupyter Notebooks, and published to an interactive website on an in-house server. Later expanded to monitor manufacturing processes.
+  skills: Python, Jupyter, Matplotlib, requests, statistics
+
+- name: LabGUI
+  duration: 2016 - 2024
+  # url: "#"
+  summary: Modular laboratory GUI
+  details: Created a modular system for building graphical user interfaces (GUIs) for lab equipment in order to simplify construction of new GUIs, fix bugs, and provide a consistent user experience on different custom-built systems. Written in Python using the Wx graphical framework, later recreated using Kivy for a different employer.
+  skills: Python, Lua, Wx, Kivy, requests, serial, pyusb
+
+- name: Drupal Integrated Passdown (DrIP)
+  duration: 2014 - 2016
+  # url: "#"
+  summary: Manufacturing intranet application
+  details: Standardized communication between staff across roles and shifts to track issues in a 24/7 manufacturing environment. Created a social-media-style intranet application to log equipment problems, view and filter existing logs, and respond to posts. This system was credited with identifying several long-standing issues causing millions in losses per year.
+  skills: PHP, SQL, Drupal, HTML, CSS, Javascript
 
 # - name: 
 #   duration: 

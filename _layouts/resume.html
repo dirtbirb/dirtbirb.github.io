@@ -145,7 +145,11 @@
           <div class="resume-item-description" style="width: 80%;">
             <p>
               <span class="resume-item-name" itemprop="name">
+                {% if project.url %}
                 <a href={{ project.url }}>{{ project.name }}</a>
+                {% else %}
+                {{ project.name }}
+                {% endif %}
               </span>
             </p>
           </div>
