@@ -83,7 +83,7 @@
           </div>
         </details>
         {% else %}
-        <p class="resume-item-summary">{{ job.summary }}</p>
+        <div class="resume-item-summary">{{ job.summary }}</div>
         {% endif %}
       </div>
       {% endfor %}
@@ -121,7 +121,7 @@
           </div>
         </details>
         {% else %}
-        <p class="resume-item-summary">{{ education.summary }}</p>
+        <div class="resume-item-summary">{{ education.summary }}</div>
         {% endif %}
       </div>
       {% endfor %}
@@ -160,7 +160,7 @@
           </div>
         </details>
         {% else %}
-        <p class="resume-item-details">{{ project.summary }}</p>
+        <div class="resume-item-details">{{ project.summary }}</div>
         {% endif %}
       </div>
       {% endfor %}
