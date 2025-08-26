@@ -3,13 +3,13 @@
   url: https://www.swiftcoat.com/
   location: Phoenix, AZ
   duration: 2020 - 2024
-  summary: Created lab systems and analyzed process data for a semiconductor startup with a novel manufacturing process
+  summary: Created lab systems and analyzed process data for a semiconductor startup
   points:
-    - Built custom equipment including a toxic gas controller using Arduino and other microcontrollers
-    - Applied Swift Coat’s process to develop and test a permanent anti-fog coating for NASA spacesuit helmets
+    - Built custom equipment for thin film processing at 1/10th the cost of commercial options
+    - Applied Swift Coat's process to develop and test an anti-fog coating for NASA spacesuit helmets
     - Automated reports for live analysis of photovoltaic field test data and manufacturing process control
-    - Designed internal experiments to establish and improve process speed and quality
-  skills: Python (pandas, NumPy, Matplot, Kivy), SQL, C++, Jupyter, Arduino, Raspberry Pi, Git, SPC, DoE, OriginPro
+    - Designed experiments to establish and improve process speed and quality
+  skills: Python (pandas, NumPy, Matplot, Kivy, requests, serial, etc), Git, Jupyter, SQL, C++, Arduino, Raspberry Pi, Git, SPC, DoE, OriginPro
   open: true
 
 - position: Lab Manager
@@ -17,13 +17,13 @@
   url: http://www.distantfocus.com/
   location: Champaign, IL
   duration: 2016 - 2019
-  summary: Created lab systems and managed lab procedures for an optics startup with novel lens designs
+  summary: Created lab systems and managed lab procedures for an optics startup
   points:
-    - Modified a 20-ton lens grinder for nuclear warheads to function as a laser interferometer
-    - Developed image analysis routines for a lunar rover, drone aircraft, scanning microscope, and other systems
     - Created a unified, modular GUI system for a range of laboratory systems built in-house
-    - Implemented and enforced lab procedures for safety, organization, and air purity
-  skills: Python (pandas, NumPy, OpenCV, Wx), C, Lua, Matlab/Octave, CUDA, G-code, Git
+    - Modified a 20-ton lens grinder for nuclear warheads to function as a laser interferometer
+    - Developed image analysis for a lunar rover, drone aircraft, scanning microscope, and more
+    - Implemented and enforced lab procedures for efficiency, consistency, and safety
+  skills: Python (pandas, NumPy, Matplot, OpenCV, Wx, etc), C, Lua, Matlab/Octave, CUDA, G-code, Git, GUI design
   open: true
 
 - position: Process Engineer
@@ -31,12 +31,12 @@
   url: https://www.aosmd.com/jireh-semiconductor
   location: Hillsboro, OR
   duration: 2014 - 2016
-  summary: Developed and maintained manufacturing processes for a 24/7 semiconductor fabrication plant
+  summary: Developed and maintained manufacturing processes for a 24/7 semiconductor fab
   points:
+    - Created, monitored, and improved plasma etch processes and outgoing quality control procedures
     - Designed a custom intranet app to improve communication between technicians and engineers
     - Advocated for technicians who felt ignored, driving improvements that had been requested for years
-    - Created, monitored, and improved plasma etch processes and outgoing quality control procedures
-  skills: SPC, DoE, SQL, PHP, CSS, JavaScript, Drupal
+  skills: SPC, DoE, SQL, PHP, CSS, JavaScript, Drupal, plasma etching
   open: true
 
 - position: Teaching / Research Assistant
@@ -44,12 +44,12 @@
   url: https://engineering.oregonstate.edu/Academics/Degrees/electrical-and-computer-engineering
   location: Corvallis, OR
   duration: 2012 - 2014
-  summary: Researched thin-film deposition processes and taught circuitry and device simulation labs
+  summary: Researched thin-film deposition processes and taught hands-on electronics classes
   points:
     - Designed and implemented production process for biocompatible flexible electronics
     - Expanded existing techniques to model ALD penetration into aerogels
     - Designed projects, gave lectures, and ran labs for device simulation and circuit design classes
-  skills: Matlab, Octave, SPICE, SILVACO
+  skills: Matlab, Octave, SPICE, SILVACO, teaching
   open: false
 
 - position: Sr. Lab Assistant
@@ -59,9 +59,9 @@
   duration: 2010 - 2011
   summary: Automated data processing for characterization of exotic materials
   points:
-    - Characterized electrical and magnetic properties of exotic materials
-    - Created scripts to automate data processing
-  skills: C++
+    - Characterized electrical and magnetic properties of rare-earth orthoferrites
+    - Created data processing scripts to standardize results between researchers
+  skills: C++, materials characterization
   open: false
 
 - position: Research Assistant
@@ -69,10 +69,9 @@
   url: https://www.nasa.gov/ames/
   location: Mountain View, CA
   duration: 2010
-  summary: Fabricated nanoscale materials and devices for digital logic and energy harvesting
+  summary: Researched nanoscale materials and devices
   points:
-    - Produced nanowires via MOCVD for use in 3D-gated transistors and energy harvesting
-    - Characterized deposition processes
+    - Fabricated nanowires via MOCVD for use in 3D-gated transistors and energy harvesting
     - Funded by Advanced Studies Laboratory/Bio-Info-Nano Research & Design Institute
   skills: XFS, EDS, SEM, electrical testing
   open: false
@@ -82,9 +81,11 @@
   url: https://www.nasa.gov/ames/
   location: Salinas, CA
   duration: 2009 - 2010
-  summary: Instructed middle school students in math and science concepts for design competitions
-  # points:
-  # skills: 
+  summary: Instructed middle school students in math and science concepts
+  points:
+    - Aided instructor with physical and scientific explanations
+    - Guided students to compete in engineering and design competitions
+  skills: STEM education, communication, training
   open: false
 
 - position: Electronics Assistant
@@ -93,6 +94,8 @@
   location: Sacramento, CA
   duration: 2007 - 2009
   summary: Assisted hobbyists by finding creative uses for surplus electronic equipment
-  # points:
+  points:
+    - Helped customers identify, communicate, and find solutions for diverse needs
+    - Repeared electronic and computer systems
   # skills:
   open: false
